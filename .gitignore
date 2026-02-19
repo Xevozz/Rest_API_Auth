@@ -1,0 +1,56 @@
+# --- OS: macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.fseventsd
+# macOS resource forks
+._*
+
+# --- OS: Windows ---
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+# Windows installer cache
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# --- Editor/IDE (lette, generiske) ---
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+# JetBrains
+.idea/
+# Xcode (hvis du arbejder på macOS/iOS)
+*.xcuserdatad/
+*.xcscmblueprint
+xcuserdata/
+DerivedData/
+
+# --- Logs & tmp ---
+*.log
+*.tmp
+*.swp
+*.swo
+
+# --- Node / package managers (kun hvis relevant – skader ikke) ---
+node_modules/
+.pnpm-store/
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+
+# --- Python (kun hvis relevant – skader ikke) ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
